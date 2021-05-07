@@ -506,10 +506,15 @@ main, .review, .contact {
 .lr {
   grid-column-start: 4;
   grid-column-end: 5;
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-.lr a:hover {
-  .hover-main;
+.lr a {
+  .btn;
+  &:hover {
+  .btn-hover;
+  }
 }
 .review1, .review2, .review3 {
   display: flex;
@@ -543,7 +548,6 @@ main, .review, .contact {
   top: 0;
   background-image: url("../img/review/star.png");
   background-size: contain;
-  // background-position: center;
   background-repeat: repeat;
   }
 }
@@ -765,6 +769,10 @@ div.p404 {
     width: 90%;
     margin: 1% auto;
   }
+  .lr a {
+    width: 100%;
+  }
+
   .review1, .review2, .review3 {
     max-height: 17rem;
   }

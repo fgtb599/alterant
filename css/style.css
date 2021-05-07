@@ -513,17 +513,25 @@ main,
 .lr {
   grid-column-start: 4;
   grid-column-end: 5;
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.lr a {
+  border: 2px solid #a1c98e;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #636363;
+  width: 15em;
+  padding: 0.7rem 0;
+  transition: .4s;
+  display: block;
+  text-align: center;
 }
 .lr a:hover {
-  color: #000000;
-  text-decoration: none;
-  transition: .2s;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  border-bottom: 2px solid;
-  border-image: linear-gradient(to right, #a1c98e, #ffffff) 50% 0%;
+  color: #fff;
+  background: #a1c98e;
+  transition: .4s;
 }
 .review1,
 .review2,
@@ -807,6 +815,9 @@ div.p404 {
     grid-column-end: 2;
     width: 90%;
     margin: 1% auto;
+  }
+  .lr a {
+    width: 100%;
   }
   .review1,
   .review2,
