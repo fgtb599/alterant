@@ -7,65 +7,70 @@
   <title>О нас</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
 </head>
 <body>
   <div class="wrapper">
-    <header>
-      <div class="logom">
+    <header id="menu">
+      <div class="logomi">
+        <img src="img/logo.png" alt="Логотип олтерен—эстетик">
+      </div>
+      <div class="logomt">
         <p>Олтерен</p>
         <p>Эстетик</p>
       </div>
       <div class="logos">
-        <img src="img/logo.png" alt="Логотип олтерен—эстетик">
+        <p>Олтерен Эстетик</p>
+        <p><a href="tel:"><small>+38 </small>(050) 050-94-45</a></p>
       </div>
       <div class="contactheader">
         <img src="img/phone.svg" alt="Телефон">
-        <span>+38 (050) 050-94-45</span>
+        <a href="tel:"><small>+38 </small>(050) 050-94-45</a>
       </div>
       <nav class="primary">
         <a class="active" href="index.html">О нас</a>
         <a href="#">Услуги</a>
         <a href="#">Цены</a>
-        <a href="#">Галерея</a>
         <a href="#">Контакты</a>
       </nav>
       <div class="lang">
         <a class="activelang" href="../ua/index.html">UA</a>
         <span>&#921;</span>
-        <span class="disabledlang" href="">RU</span>
+        <span class="disabledlang">RU</span>
       </div>
-
       <div class="toggle-nav">
         <input id="toggle" type="checkbox">
-        <label class="toggle-btn" for="toggle"></label>
-          <span></span><span></span><span></span>
+        <label class="toggle-btn" for="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
         <nav class="navs">
-          <div class="langs">
-            <a class="activelang" href="../ua/index.html">UA</a>
-            <span>&#921;</span>
-            <span class="disabledlang" href="">RU</span>
-          </div>
           <a class="active" href="index.html">О нас</a>
           <a href="#">Услуги</a>
           <a href="#">Цены</a>
-          <a href="#">Галерея</a>
           <a href="#">Контакты</a>
+          <div class="langs">
+            <a class="activelang" href="../ua/index.html">UA</a>
+            <span>&#921;</span>
+            <span class="disabledlang">RU</span>
+          </div>
         </nav>
       </div>
     </header>
     <aside class="l-p">
-      <div class="logo">
+      <p class="poster">Компетентность</p>
+      <p class="poster">Доверие</p>
+      <p class="poster">Oпыт</p>
+      <div class="logo-aside">
         <img src="img/logo1.png" alt="Логотип олтерен—эстетик">
       </div>
-      <h3 class="product out"><a href="#">Пластическая хирургия</a></h3>
-      <h3 class="product out"><a href="#">Лазерная медицина</a></h3>
-      <h3 class="product out"><a href="#">Косметология</a></h3>
+      <a class="product out" href="#">Пластическая хирургия</a>
+      <a class="product out" href="#">Лазерная медицина</a>
+      <a class="product out" href="#">Косметология</a>
     </aside>
-    <h3 class="poster">Доверие компетентность опыт</h3>
     <main>
       <section class="about1">
-        <h3>Как мы работаем для Вас и чем мы можем Вам помочь?</h3>
+        <h4>Как мы работаем для Вас и чем мы можем Вам помочь?</h4>
         <p>Приветствую Вас на сайте центра эстетической медицины 
           «Олтерен-эстетик». В нашем центре для Вас доступен большой
            спектр современных процедур лечения возрастных и 
@@ -74,16 +79,16 @@
           беспокоят деформационные изменения лица и шеи, живота 
           и бёдер, рук и молочных желез.</p>
       </section>
-      <section class="md">
+      <div class="md">
         <a href="ruchystiakova.html">
           <img src="img/chystiakova.jpg" alt="Анастасия Чистякова">
-          <strong>Анастасия Чистякова</strong> — эстетический хирург, 
+          <span><strong>Анастасия Чистякова</strong> — эстетический хирург, 
           ассистент кафедры реконструктивно-восстановительной хирургии 
-          Донецкого национального медицинского университета, медицинский 
-          руководитель «Олтерен-эстетик»</a>
-      </section>
+          Донецкого национального медицинского университета, руководитель «Олтерен-эстетик»</span>
+        </a>
+      </div>
       <section class="about2">
-        <h3>Как мы работаем для Вас и чем мы можем Вам помочь?</h3>
+        <h4>Как мы работаем для Вас и чем мы можем Вам помочь?</h4>
         <p>Приветствую Вас на сайте центра эстетической медицины «Олтерен-эстетик». 
           В нашем центре для Вас доступен большой спектр современных процедур лечения 
           возрастных и послетравматических изменений лица и тела.</p>
@@ -91,7 +96,7 @@
           деформационные изменения лица и шеи, живота и бёдер, рук и
            молочных желез.</p>
         <h4>Получить консультацию относительно пластических операций 
-          Вы можете абсолютно бесплатно.</h3>
+          Вы можете абсолютно бесплатно.</h4>
         <p>Первичная консультация проводится не меньше получаса, чтоб 
           я могла успеть ответить на все Ваши вопросы: какой размер 
           импланта для увеличения груди необходимо выбрать в Вашем случае? 
@@ -110,25 +115,17 @@
           и Вы мечтаете восстановить их объём? Это возможно даже без 
           существенных финансовых затрат, если правильно выбрать препарат 
           и зоны коррекции. Выполняя объёмную или контурную пластику лица, 
-          я всегда полагаюсь на равномерность и натуральность. Потому 
-          одним шприцем иногда можно “довести до ума” две, а то и три 
-          зоны на лице. Особенно это касается молодых лиц в возрасте 
-          28-38 лет. Однако, если хочется совершенства, то одного ш
-          прица, конечно же, не хватит.</p> 
+          я всегда полагаюсь на равномерность и натуральность. </p> 
         <p><strong>У Вас усталое выражение лица?</strong> Опущение 
           наружных уголков глаз, уменьшение объёма нижних век, 
           опущение углов рта, серый цвет лица, чрезмерное шелушение кожи? 
-        <p>Существуют как одноэтапные, так и курсовые процедуры, 
-          которые вернут Вам максимально здоровый цвет лица и 
-          сияющую кожу: терапия мезороллером, биоревитализация, 
-          клеточная терапия, плазмолифтинг, мезотерапия, поверхностные 
-          пилинги, или же срединный пилинг, комбинированная чистка 
-          лица с нашей высококвалифицированной консультацией поможет 
-          решить, в чём заключается проблема и понять, какие пути её 
-          решения существуют именно в Вашем случае.</p>
+        <p>Существуют как одноэтапные, так и курсовые процедуры: 
+          терапия мезороллером, биоревитализация, клеточная терапия, 
+          плазмолифтинг, мезотерапия, поверхностные и срединный пилинги, 
+          комбинированная чистка лица.</p>
       </section>
       <section class="about3">
-        <h3>Получить консультацию относительно пластических операций Вы можете абсолютно бесплатно.</h3>
+        <h4>Получить консультацию относительно пластических операций Вы можете абсолютно бесплатно.</h4>
         <p>Первичная консультация проводится не меньше получаса, чтоб я могла успеть ответить на все Ваши вопросы: какой размер импланта для увеличения груди необходимо выбрать в Вашем случае? Есть ли у Вас грыжи нижних век и как их убрать? Сколько длится реабилитация после подтяжки лица? Что необходимо для получения наилучших результатов от абдоминопластики и многие другие вопросы мы можем обсудить во время первичной консультации.</p>
         <p>В нашем центре к Вашим услугам <strong>лазерная эпиляция</strong>. 
           Наш собственный диодный лазерный аппарат позволяет 
@@ -150,40 +147,80 @@
           плазмолифтинг, мезотерапия, поверхностные и срединный пилинги, 
           комбинированная чистка лица.</p>
       </section>
-      <h3 class="contact out">Контакты</h3>
-      <div class="contact1">
-        <p><strong>Телефон: +380 (50) 050-94-45</strong></p>
-        <p>(Viber, WhatsApp, Telegram)</p>
+    </main>
+     <div class="review">
+        <h3>Отзывы о нас</h3>
+        <div class="review1">
+          <img src="img/review/rev1.png" alt="отзыв1">
+          <span>Ольга Алехина</span>
+          <p>Восхищаюсь работой Анастасии. Удаляла кератому на лице.
+            Более чем довольна результатом! Все очень аккуратно получилось 
+            и на высшем уровне с заботой о клиенте!</p>
+        </div>
+        <div class="review2">
+          <img src="img/review/rev2.png" alt="отзыв2">
+          <span>Iryna Rostovska</span>
+          <p>Професійно та якісно! Індивідуальний підхід до кожного клієнта) 
+            приємні адміністратори та відмінні експерти краси. Єдине, що 
+            трішки "кусають" ціни, проте зі знижками можна собі дозволити)</p>
+        </div>
+        <div class="review3">
+          <img src="img/review/rev3.png" alt="отзыв3">
+          <span>Helena Raju</span>
+          <p>I was looking for a qualified and professional cosmetologist in 
+            small city like Kramatorsk. And I was so happy to find Anastasia! 
+            She is very knowledgeable and provides such a great customer service 
+            which is very important. She gave me plenty of information regarding 
+            the cosmetic issue I  had and suggested the best option to make my skin 
+            look better. The office is very clean and sterile. I felt very 
+            comfortable and at ease during the procedure. Anastasia did and amazing 
+            job! She followed up with me again the next day and gave advice on 
+            skin regime and how to keep it nice and healthy! On top of everything 
+            she has such a great and friendly personality. Will definitely visit 
+            this clinic again!
+            If you want great service, professional care and the best customer 
+            service I highly recommend Alterant!</p>
+          <a href="">больше</a>
+        </div>
+        <div class="lr">
+          <a href="https://search.google.com/local/reviews?placeid=ChIJmTzzL_qW30AR88C1eyW_kzw">Все отзывы</a>
+          <br><a href="https://search.google.com/local/writereview?placeid=ChIJmTzzL_qW30AR88C1eyW_kzw">Оставить отзыв</a>
+        </div>
       </div>
-      <address class="contact2">
-        <p>Консультативный прием:</p>
-        <p><strong>Краматорск, ул. Марии Приймаченко 4а, этаж 2, офис № 9</strong></p>
-      </address>
-      <address class="contact3">
-        <p>Клиническая база:</p>
-       <p><strong>Дружковка, ул. Короленко 12</strong>, Центральная городская больница, хирургическое отделение</p>
-      </address>
+      <div class="contact">
+        <h3>Контакты</h3>
+        <div class="contact1">
+          <p>Телефон:</p>
+          <p><a href="tel:"><strong>+38 (050) 050-94-45</strong></a></p>
+          <p>(Viber, WhatsApp, Telegram)</p>
+        </div>
+        <address class="contact2">
+          <p>Консультативный прием:</p>
+          <p><strong>Краматорск, ул. Марии Приймаченко 4а</strong>, этаж 2, офис 9</p>
+        </address>
+        <address class="contact3">
+          <p>Клиническая база:</p>
+          <p><strong>Дружковка, ул. Короленко 12</strong>, Центральная городская больница, хирургическое отделение</p>
+        </address>
+      </div>
       <div class="iframe">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2631.788634342718!2d37.60105504907011!3d48.72863029523061!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c93bf257bb5c0f3!2z0KbQtdC90YLRgCDRjdGB0YLQtdGC0LjRh9C10YHQutC-0Lkg0LzQtdC00LjRhtC40L3RiyAi0J7Qu9GC0LXRgNC10L0t0LXRgdGC0LXRgtC40Loi!5e0!3m2!1suk!2sua!4v1619200925334!5m2!1suk!2sua" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
-    </main>
     <footer>
       <p>&copy; 2015-2021 Чистякова А.Н. Все права защищены.</p>
       <p>Запрещено использование материалов сайта без согласия автора и обратной ссылки.</p>
     </footer>
-      <div class="social">
-        <a target="_blank" href="https://www.instagram.com/alterant.aesthetic/"><img src="img/inst.png" alt="страница instagram"></a>
-        <a target="_blank" href="https://www.facebook.com/%D0%9E%D0%BB%D1%82%D0%B5%D1%80%D0%B5%D0%BD-%D0%95%D1%81%D1%82%D0%B5%D1%82%D1%96%D0%BA-1906391539385151"><img src="img/fb.png" alt="страница facebook"></a>
-      </div>
+    <div class="social">
+      <a target="_blank" href="https://www.instagram.com/alterant.aesthetic/"><img src="img/inst.png" alt="страница instagram"></a>
+      <a target="_blank" href="https://www.facebook.com/%D0%9E%D0%BB%D1%82%D0%B5%D1%80%D0%B5%D0%BD-%D0%95%D1%81%D1%82%D0%B5%D1%82%D1%96%D0%BA-1906391539385151"><img src="img/fb.png" alt="страница facebook"></a>
+    </div>
   </div>
 
-  <!-- подключение скриптового файла библиотеки jquery, необходимого для работы фреймворка -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <!-- подключение скриптового файла библиотеки popper, необходимого для работы фреймворка -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <!-- подключение скриптового файла фреймворка bootstrap -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <!-- <script src="js/bootstrap.min.js"></script> -->
-
+  <script> 
+  window.onscroll = function() {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  document.getElementById('menu').style.backgroundColor= scrolled==0?"":"#fcfcfc";
+  }
+  </script>
 </body>
 </html>
