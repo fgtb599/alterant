@@ -1,0 +1,2 @@
+User-agent: *
+host: http://alterant.com.ua
