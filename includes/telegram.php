@@ -20,7 +20,7 @@ $qestion5 = $_POST['qestion5'];
 $sickness= $_POST['sickness'];
 $userComment = $_POST['userComment'];
  // токен нашего бота из botFather
-$token = "1985482332:AAEVIsXOcqY-35h4TAQ_lfgtQuNDDY3kYWE";
+$token = "";
 $chat_id = "-503390318";
 $arr = array(
   'Ім\'я:  ' => $userName,
